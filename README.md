@@ -1,4 +1,4 @@
-# <img src="icon.png" alt="Q-VS Icon" style="max-width: 100%; height: auto; max-height: 350px;" />
+# <img src="icon.png" alt="Q-VS Icon" style="max-width: 80%; height: auto; max-height: 350px;" />
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Arifmaulanaazis/QVS)
 ![GitHub Release Date](https://img.shields.io/github/release-date/Arifmaulanaazis/QVS)
