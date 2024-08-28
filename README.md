@@ -1,4 +1,4 @@
-# ![Q-VS Icon](icon.png) Q-VS
+# <img src="icon.png" alt="Q-VS Icon" width="50" height="50"/> Q-VS
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Arifmaulanaazis/QVS)
 ![GitHub Release Date](https://img.shields.io/github/release-date/Arifmaulanaazis/QVS)
