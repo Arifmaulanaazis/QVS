@@ -2,11 +2,14 @@
 
 Q-VS is a powerful software application designed to determine the affinity of a specific receptor with multiple ligands simultaneously. Leveraging the robust capabilities of **AutoDock Vina V1.2.3** and **V1.1.2** as the backend engines, this application offers a streamlined solution for researchers in computational chemistry and drug discovery.
 
-Developed using PyQt5 in the Python language, Q-VS provides an intuitive graphical user interface that makes complex molecular docking tasks more accessible.
+Developed using PyQt5 in the Python language, Q-VS provides an intuitive graphical user interface that makes complex molecular docking tasks more accessible. In addition to docking capabilities, Q-VS also includes specialized modules for secondary metabolite searches, ADMET predictions, ligand preparation, and molecular dynamics simulations.
 
 ## Features
 
 - **Multi-Ligand Docking**: Simultaneously evaluate the binding affinity of numerous ligands to a specific receptor.
+- **Metabolib**: Search for secondary metabolite databases and predict ADMET properties using compound similarity fingerprints. Users can search by plant Latin name, CID, or secondary metabolite name and export results to Excel.
+- **Smiles2Structure**: Prepare ligands by converting SMILES strings to various file formats (PDB, PDBQT, SDF, MOL, MOL2) and generate 2D structural images. Users can customize minimization methods (MMFF94 or UFF) and set parameters like energy, conformer count, and maximum repetition.
+- **Molecular Dynamic**: Run molecular dynamics simulations using Gromacs 2021.5, which is built for Windows. This feature integrates with CHARMM-GUI for preparation, allowing users to easily run MD simulations by providing the prepared files.
 - **Integration with AutoDock Vina**: Supports both V1.2.3 and V1.1.2 versions for flexible docking simulations.
 - **User-Friendly Interface**: Built with PyQt5, offering a modern and intuitive user experience.
 - **Data Analysis and Visualization**: Includes tools for analyzing docking results and visualizing molecular interactions.
@@ -46,18 +49,15 @@ pip install -r requirements.txt
 
 ## Setup
 
-1. **Clone the Repository**
+**Clone the Repository**
 
-   Clone this repository to your local machine using:
+Clone this repository to your local machine using:
 
-   ```bash
-   git clone https://github.com/Arifmaulanaazis/Q-VS.git
-   cd Q-VS
-   ```
+```bash
+git clone https://github.com/Arifmaulanaazis/QVS.git
+cd QVS
+```
 
-2. **Prepare AutoDock Vina**
-
-   Ensure that AutoDock Vina V1.2.3 or V1.1.2 is correctly installed on your system and accessible via the command line. You can download AutoDock Vina from [their official website](http://vina.scripps.edu/).
 
 ## Usage
 
@@ -69,17 +69,41 @@ python main.py
 
 ### Workflow
 
-1. **Load Receptor and Ligands**: Import the receptor structure and a list of ligand structures you wish to screen.
+1. **Virtual Screening**  
+   a. **Load Receptor and Ligands**  
+      Import the receptor structure and a list of ligand structures you wish to screen.  
+   b. **Select AutoDock Vina Version**  
+      Choose between V1.2.3 or V1.1.2 for the docking process.  
+   c. **Configure Docking Parameters**  
+      Adjust parameters such as grid box size, exhaustiveness, and number of modes if necessary.  
+   d. **Run Screening**  
+      Initiate the screening process and monitor progress through the application's interface.  
+   e. **Analyze Results**  
+      Review docking scores, visualize binding poses, and export results for further analysis.  
 
-2. **Select AutoDock Vina Version**: Choose between V1.2.3 or V1.1.2 for the docking process.
+2. **Metabolib**  
+   a. **Search Database**  
+      Input the plant Latin name, CID, or secondary metabolite name to search the database.  
+   b. **Select Metabolite**  
+      Choose a metabolite from the search results to view its details.  
+   c. **ADMET Prediction**  
+      Click on the selected metabolite to open a new window displaying ADMET data. Export search results to Excel if needed.  
 
-3. **Configure Docking Parameters**: Adjust parameters such as grid box size, exhaustiveness, and number of modes if necessary.
+3. **Smiles2Structure**  
+   a. **Load SMILES List**  
+      Select an Excel file containing the list of SMILES strings for the ligands you wish to prepare.  
+   b. **Set Output Options**  
+      Choose the output file formats (PDB, PDBQT, SDF, MOL, MOL2) and customization options like minimization method, energy, conformer count, and maximum repetition.  
+   c. **Generate Structures**  
+      Run the preparation process to generate 3D structures and 2D images, and optionally export the images to a Word document.  
 
-4. **Run Screening**: Initiate the screening process and monitor progress through the application's interface.
-
-5. **Analyze Results**: Review docking scores, visualize binding poses, and export results for further analysis.
-
-6. **Generate Reports**: Create comprehensive reports that summarize the screening outcomes, including tables and charts.
+4. **Molecular Dynamic**  
+   a. **Prepare Input Files**  
+      Use CHARMM-GUI or another third-party software to prepare the molecular dynamics simulation files.  
+   b. **Load Prepared Files**  
+      Input the folder/path containing the prepared files into the Molecular Dynamic menu of Q-VS.  
+   c. **Run Simulation**  
+      Start the molecular dynamics simulation using Gromacs 2021.5, and monitor progress until completion.  
 
 ## Contributing
 
@@ -106,4 +130,3 @@ If you use Q-VS in your research, please cite the following:
 ```bash
 Dr.Dra. Azminah M.Si., Arif Maulana Azis, S.Farm., Tegar Achsendo Yuniarta, S.Farm., M.Si, Dr.rer.nat. apt. Ratih. Q-VS V1.0.1. Surabaya, 2023.
 ```
-
