@@ -1,6 +1,6 @@
-<div style="display: grid; place-items: center; height: 100vh;">
-    <img src="icon.png" alt="Q-VS Icon" style="width: 300px; height: 300px; object-fit: cover;">
-</div>
+<p align="center">
+  <img src="icon.png" alt="Q-VS Icon" width="300" height="300" style="object-fit: cover;">
+</p>
 
 
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/Arifmaulanaazis/QVS)
