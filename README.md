@@ -136,5 +136,5 @@ For any questions or inquiries, please contact [Arif Maulana Azis](mailto:titand
 If you use Q-VS in your research, please cite the following:
 
 ```bash
-Dr.Dra. Azminah M.Si., Arif Maulana Azis, S.Farm., Tegar Achsendo Yuniarta, S.Farm., M.Si, Dr.rer.nat. apt. Ratih. Q-VS V1.0.1. Surabaya, 2023.
+Dr.Dra. Azminah M.Si., apt. Arif Maulana Azis, S.Farm., Tegar Achsendo Yuniarta, S.Farm., M.Si, Dr.rer.nat. apt. Ratih. Q-VS V1.0.1. Surabaya, 2023.
 ```
