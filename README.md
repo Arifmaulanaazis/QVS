@@ -26,6 +26,18 @@ Developed using PyQt5 in the Python language, Q-VS provides an intuitive graphic
 - **Data Analysis and Visualization**: Includes tools for analyzing docking results and visualizing molecular interactions.
 - **Report Generation**: Automatically generate detailed reports of docking results in various formats.
 
+
+## Pre-installation Requirements
+
+Before installing Q-VS, ensure that your system meets the following prerequisites:
+
+- **Python**: Version 3.9 or higher. It is highly recommended to use [Anaconda](https://www.anaconda.com/products/distribution) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html) for managing your Python environment, as they simplify package management and deployment.
+
+  > **Note**: Anaconda and Miniconda come with many of the required packages pre-installed, reducing the setup time and potential conflicts.
+
+- **Operating System**: Q-VS is now only available on windows.
+
+
 ## Requirements
 
 Before running the application, ensure you have the following Python packages installed:
@@ -49,14 +61,29 @@ Before running the application, ensure you have the following Python packages in
 - `pywin32`
 - `qfluentwidgets`
 - `qframelesswindow`
+- `MDAnalysis`
+- `prolif`
+
 
 ## Installation
 
-To install the required dependencies, use the following command:
+To install the required dependencies, follow these steps:
 
-```bash
-pip install -r requirements.txt
-```
+1. **Create a Conda Environment**  
+   Open your terminal or command prompt and create a new Conda environment:
+
+   ```bash
+   conda create -n qvs python=3.9
+   conda activate qvs
+   ```
+
+2. **Install Dependencies**  
+   Use the following command to install all required Python packages:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
 
 ## Setup
 
