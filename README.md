@@ -3,7 +3,7 @@
 </p>
 
 
-![GitHub release (latest by date)](https://img.shields.io/github/v/release/Arifmaulanaazis/QVS)
+![GitHub release Version (latest by date)](https://img.shields.io/github/v/release/Arifmaulanaazis/QVS)
 ![GitHub Release Date](https://img.shields.io/github/release-date/Arifmaulanaazis/QVS)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Arifmaulanaazis/QVS)
 ![GitHub All Releases](https://img.shields.io/github/downloads/Arifmaulanaazis/QVS/total)
