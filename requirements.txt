@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 PyQt5
 PyQtWebEngine
 psutil
@@ -18,7 +17,6 @@ MGLTools
 pywin32
 qfluentwidgets
 qframelesswindow
-=======
 PyQt5
 PyQtWebEngine
 psutil
@@ -38,4 +36,3 @@ MGLTools
 pywin32
 qfluentwidgets
 qframelesswindow
->>>>>>> f2070f09a2cc87256060602483c3624eb3c2e2fd
