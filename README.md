@@ -65,41 +65,63 @@ Before running the application, ensure you have the following Python packages in
 - `prolif`
 
 
-## Installation
+## Installation Guide
 
-To install the required dependencies, follow these steps:
+Follow the steps below to set up the project on your local machine.
 
-1. **Create a Conda Environment**  
-   Open your terminal or command prompt and create a new Conda environment:
+### 1. Install Git (if not already installed)
 
-   ```bash
-   conda create -n qvs python=3.9
-   conda activate qvs
-   ```
+If you do not have Git installed on your machine, follow these steps:
 
-2. **Install Dependencies**  
-   Use the following command to install all required Python packages:
+- **For Windows:**
+  Download and install Git from the official website [here](https://git-scm.com/download/win).
 
-   ```bash
-   pip install -r requirements.txt
-   ```
-   
+- **For macOS:**
+  Install Git using Homebrew:
+  ```bash
+  brew install git
+  ```
 
-## Setup
+- **For Linux:**
+  Install Git using the package manager:
+  ```bash
+  sudo apt-get install git
+  ```
 
-**Clone the Repository**
+You can verify the installation by checking the version:
+```bash
+git --version
+```
 
-Clone this repository to your local machine using:
+### 2. Create a Conda Environment
+
+Open your terminal or command prompt, and create a new Conda environment for the project:
+
+```bash
+conda create -n qvs python=3.9
+conda activate qvs
+```
+
+### 3. Clone the Repository
+
+Next, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/Arifmaulanaazis/QVS.git
 cd QVS
 ```
 
+### 4. Install Python Dependencies
+
+Once inside the project directory, install all the required Python packages by running:
+
+```bash
+pip install -r requirements.txt
+```
 
 ## Usage
 
-To start the application, execute the `main.py` file:
+To run the application, execute the following command:
 
 ```bash
 python main.py
