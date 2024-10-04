@@ -119,6 +119,12 @@ Once inside the project directory, install all the required Python packages by r
 pip install -r requirements.txt
 ```
 
+Install Pymol using conda
+
+```bash
+conda install conda-forge::pymol-open-source
+```
+
 ## Usage
 
 To run the application, execute the following command:
