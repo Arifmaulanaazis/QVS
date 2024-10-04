@@ -14,5 +14,5 @@ rdkit-pypi
 pywin32
 tabulate
 svglib
-pip install "PyQt-Fluent-Widgets[full]" -i https://pypi.org/simple/
+"PyQt-Fluent-Widgets[full]" -i https://pypi.org/simple/
 PyQt5-Frameless-Window
