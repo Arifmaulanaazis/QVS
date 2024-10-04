@@ -102,14 +102,11 @@ conda create -n qvs python=3.9
 conda activate qvs
 ```
 
-### 3. Clone the Repository
+### 3. Download the Repository
 
-Next, clone the repository to your local machine:
+Next, download the repository to your local machine. [Download source code here](https://github.com/Arifmaulanaazis/QVS/releases/latest).
 
-```bash
-git clone https://github.com/Arifmaulanaazis/QVS.git
-cd QVS
-```
+After download, extract source code and open terminal on exteacted folder.
 
 ### 4. Install Python Dependencies
 
