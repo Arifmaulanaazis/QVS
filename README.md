@@ -184,7 +184,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or inquiries, please contact [Arif Maulana Azis](mailto:titandigitalsoft@gmail.com).
+For any questions or inquiries, please contact [Dr.Dra. Azminah M.Si.](mailto:azminah@staff.ubaya.ac.id).
 
 ## Citation
 
