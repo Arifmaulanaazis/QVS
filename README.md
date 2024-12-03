@@ -9,6 +9,12 @@
     <img src="https://img.shields.io/github/downloads/Arifmaulanaazis/QVS/total" alt="GitHub Download count">
 </div>
 
+<p align="center">
+  <a href="https://qvs.lab-az.com/" target="_blank">
+    <img src="https://img.shields.io/badge/Visit%20Q-VS%20Website-brightgreen?style=for-the-badge&logo=google-chrome" alt="Visit Q-VS Website">
+  </a>
+</p>
+
 
 
 Q-VS is a powerful software application designed to determine the affinity of a specific receptor with multiple ligands simultaneously. Leveraging the robust capabilities of **AutoDock Vina V1.2.3** and **V1.1.2** as the backend engines, this application offers a streamlined solution for researchers in computational chemistry and drug discovery.
