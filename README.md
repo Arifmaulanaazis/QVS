@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://qvs.lab-az.com" target="_blank">
-    <img src="https://img.shields.io/badge/Visit%20Q-VS%20Website-brightgreen?style=for-the-badge&logo=google-chrome" alt="Visit Q-VS Website">
+    <img src="https://img.shields.io/badge/Visit%20QVS%20Website-brightgreen?style=for-the-badge&logo=google-chrome" alt="Visit Q-VS Website">
   </a>
 </p>
 
